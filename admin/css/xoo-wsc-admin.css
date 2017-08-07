@@ -1,0 +1,76 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .section-title{
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 17px;
+    margin: 0 -10px;
+    padding: 8px;
+    background-color: #333333;
+    color: #ffffff;
+}
+.xoo-main{
+    background-color: #ffffff;
+    padding: 0 10px;
+    width: 72%;
+    float: left;
+    max-width: 845px;
+}
+.xoo-container {
+    margin-top: 12px;
+}
+input[name="xoo_wsc_gl_options[sc-shipping-text]"]{
+    width: 500px;
+}
+table.form-table{
+    margin-bottom: 20px;
+}
+
+/*sidebar*/
+.xoo-sidebar{
+    width: 18%;
+    margin-top: 2px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 0px;
+    text-align: center;
+    margin-left: 10px;
+    display: table;
+    min-width: 165px;
+    float: left;
+    margin-left: 50px;
+}
+.xoo-chhead{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+}
+.xoo-chicon{
+    height: 34px;
+    width: 34px;
+    font-size: 34px;
+}
+.xoo-chtxt {
+    font-size: 16px;
+    margin-right: 24px;
+    line-height: 25px;
+}
+.xoo-more-plugins{
+    margin-top: 4px;
+}
+/* End sidebar */
+
+@media only screen and (max-width: 1130px) {
+    .xoo-main{
+        width: 95%;
+        max-width: 100%;
+    }
+
+    .xoo-sidebar{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
